@@ -38,7 +38,7 @@ Gain (Av) > -10V/V.<br>
 
 **For L=180nm**
 
-**DC Analysis**
+## DC Analysis
 
 **Procedure**
 1.Build the circuit as per the diagram shown above and set the values of the voltage sources,resistors as per the calculated values.<br>
@@ -51,7 +51,7 @@ Gain (Av) > -10V/V.<br>
 8.Click OK, and place the generated command on the schematic.<br>
 9.Next click on run button, you will get a pop up window which gives us information about operating point.It includes the values of Vout and ID.<br>
 
-**Calculations**
+## Calculations
 
 The drain current with channel length modulation is expressed as:<br>
 ID = (1/2)μnCox(W/L)(VGS - Vth)^2<br>
@@ -71,7 +71,7 @@ W1/L1 = W2/L2<br>
 In order to determine the current value based on the specified ratio, the W/L values for M1, M2, and M3 are 10 µm/180nm, 10 µm/180nm, and 10 µm/180nm, respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.6275V.<br>
 
 
-**Transient Analysis**
+## Transient Analysis
 
 **Procedure**
 
@@ -87,7 +87,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 **Result :**
 The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.77 V/V.<br>
 
-**AC Analysis**
+## AC Analysis
 
 **Procedure :**
 
@@ -108,7 +108,7 @@ The expected gain was greater than or equal to 10 V/V and the obtained gain is 1
 
 ## 1:2 Ratio
 
-**DC Analysis**
+## DC Analysis
 
 ![image](https://github.com/user-attachments/assets/31237eef-a56d-4225-b2f4-8cd683ebb5a5)
 
@@ -138,7 +138,7 @@ M2 and M3 are 6 µm/180nm and 6 µm/180nm<br>
 M1 is 3 µm/180nm <br>
 Since Vin is chosen to be in the saturation range, the value that is provided is 0.763 V. <br>
 
-**Transient Analysis**
+## Transient Analysis
 
 1.Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.763 V.<br>
 2.Click on run command.<br>
@@ -149,7 +149,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 
 **Result :** The expected gain was greater than or equal to 10 V/V and the obtained gain is 12.11 V/V.
 
-**AC Analysis**
+## AC Analysis
 
 1.Change the Vin to AC and set AC amplitude to 1.<br>
 2.Click on run simulation and choose AC analysis.<br>
@@ -189,13 +189,13 @@ Similarly,<br>
 
 ## Part B
 
-**Aim** Design differential amplifie for following specifications Vdd=3.2V, P≤2.8mW, Vicm = 1.3V, Vocm = 1.7V, Vp = 0.6V. Perform DC analysis, transient analysis & frequency response and extract the required parameters.
+## Aim:  Design differential amplifie for following specifications Vdd=3.2V, P≤2.8mW, Vicm = 1.3V, Vocm = 1.7V, Vp = 0.6V. Perform DC analysis, transient analysis & frequency response and extract the required parameters.
 
-**Circuit Diagram**
+## Circuit Diagram
 
 ![image](https://github.com/user-attachments/assets/2ab2d8d1-555c-4416-891d-af2f7f444547)
 
-**DC Analysis**
+## DC Analysis
 
 N-Channel MOSFETs: <br>
 M1:	W=108.5 µm ;	L=180 nm<br>
