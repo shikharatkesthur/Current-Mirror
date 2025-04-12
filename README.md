@@ -179,6 +179,59 @@ Similarly,<br>
 | 1:1    |     12.60    |    15.3     |  
 | 1:2    |     9.55     |    15.98    |
 
+## Inference
+
+1.The current mirror circuit accurately copies the reference current with very little variation, ensuring reliable current mirroring across different W/L ratios.<br>
+2.Even when the W/L ratio changes while keeping the same proportion, the drain current (ID) stays nearly the same, confirming the circuit's effectiveness.<br>
+3.The amplifier gain is slightly higher than expected due to small differences in transistor properties or minor simulation effects.<br>
+4.When the mirror ratio increases (from 1:1 to 1:2), the gain also increases as expected.<br>
+5.Overall, the results closely match theoretical predictions, proving that the simulation and circuit design are working correctly.<br>
+
+## Part B
+
+**Aim** Design differential amplifie for following specifications Vdd=3.2V, P≤2.8mW, Vicm = 1.3V, Vocm = 1.7V, Vp = 0.6V. Perform DC analysis, transient analysis & frequency response and extract the required parameters.
+
+**Circuit Diagram**
+
+![image](https://github.com/user-attachments/assets/2ab2d8d1-555c-4416-891d-af2f7f444547)
+
+**DC Analysis**
+
+N-Channel MOSFETs: <br>
+M1:	W=108.5 µm ;	L=180 nm<br>
+M2:	W=108.5 µm ;  L=180 nm<br>
+M3:	W=22.42 µm ;  L=180 nm<br>
+M6:	W=10 µm    ;	L=180 nm<br>
+
+P-Channel MOSFETs:<br>
+M4:	W=52µm	; L=180 nm<br>
+M5: W=52µm	; L=180 nm<br>
+M6:	W=10µm	; L=180 nm<br>
+
+![image](https://github.com/user-attachments/assets/0f832b8f-38e4-44b3-b734-ec0f0373995c)
+
+**Transient Analysis**
+
+![image](https://github.com/user-attachments/assets/3502a468-bf52-4310-9b3c-a28cb655b9f6)
+
+A differential input of 10 mV peak, 1 kHz sine wave was applied to the gate of M1. Since the output of a differential amplifier is the difference in drain voltages of M1 and M2, only one side of the differential input was excited.
+
+## Inference
+
+The differential amplifier experiment highlights:<br>
+
+The influence of channel length and W/L ratios on gain and bandwidth.<br>
+The ability to customize circuit performance based on design goals by strategically selecting transistor geometries.<br>
+The trade-offs between gain, bandwidth, and silicon area, which must be considered during analog circuit design.<br>
+
+
+
+
+
+
+
+
+
 
 
 
